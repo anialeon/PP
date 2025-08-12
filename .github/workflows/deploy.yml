@@ -18,8 +18,8 @@ jobs:
           node-version: '20'
 
       - name: Install deps
-        working-directory: "aff_pages_automation (1)"
-        run: npm ci
+  working-directory: "aff_pages_automation (1)"
+  run: npm install
 
       - name: Build site
         working-directory: "aff_pages_automation (1)"
